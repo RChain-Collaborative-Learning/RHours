@@ -83,7 +83,7 @@
                     "ContributionSpans":[
                         {
                             "StartDate":"2018-05-01T00:00:00.0000000",
-                            "EndDate":"2018-08-20T00:00:00.0000000",
+                            "EndDate":"2018-08-21T00:00:00.0000000",
                             "UtcOffset":-7.0,
                             "Contributions":[
                                 {
@@ -101,6 +101,25 @@
                                     },
                                     "Claims":[
                                         "Set up RHours Accounting"
+                                    ]
+                                },
+                                {
+                                    "Terms":{
+                                        "Type":"HourlyWithCompoundedInterestAndMaxTerm",
+                                        "Items":[
+                                            {
+                                                "Hours":0.75,
+                                                "HourlyRate":50.0,
+                                                "Token":"USD",
+                                                "Interest":0.7,
+                                                "MaxMultiplier":10.0
+                                            }
+                                        ]
+                                    },
+                                    "Claims":[
+                                        "Updated README with policies",
+                                        "Created contributions report",
+                                        "Time split with RHours project"
                                     ]
                                 }
                             ]
