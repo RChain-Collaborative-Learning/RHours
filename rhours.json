@@ -2,11 +2,16 @@
     "Version":"1.0",
     "Projects":[
         {
-            "Id":"RclRhours",
+            "Id":"RclRHours",
             "Name":"RCL RHours Accounting"
         }
     ],
     "Contributors":[
+        {
+            "PublicName":"RHours",
+            "PublicKey":"MCowBQYDK2VwAyEAByVMpBr5tXofg1VXTcbPFxAmRjoNDzsAb+LglrAl8dU=",
+            "PrivateInfoHash":"6I4hlyUyCKQWDzGGS45hPCGf3LRFlDs7DW0ehUE+n68="
+        },
         {
             "PublicName":"glenbraun",
             "PublicKey":"MCowBQYDK2VwAyEAu0clAde+95v+WW7hDFaMQI1qqI11hmwaCKfA2H99U2I=",
@@ -22,9 +27,56 @@
         {
             "Proposal":{
                 "Invoice":{
+                    "InvoiceId":"bdlbfdki",
+                    "Project":{
+                        "Id":"RclRHours",
+                        "Name":"RCL RHours Accounting"
+                    },
+                    "Contributor":{
+                        "PublicName":"RHours",
+                        "PublicKey":"MCowBQYDK2VwAyEAByVMpBr5tXofg1VXTcbPFxAmRjoNDzsAb+LglrAl8dU=",
+                        "PrivateInfoHash":"6I4hlyUyCKQWDzGGS45hPCGf3LRFlDs7DW0ehUE+n68="
+                    },
+                    "ContributionSpans":[
+                        {
+                            "StartDate":"2018-08-22T00:00:00.0000000",
+                            "EndDate":"2018-08-22T00:00:00.0000000",
+                            "UtcOffset":-7.0,
+                            "Contributions":[
+                                {
+                                    "Terms":{
+                                        "Type":"CashWithCompoundedInterestAndMaxTerm",
+                                        "Items":[
+                                            {
+                                                "Amount":100.0,
+                                                "Token":"USD",
+                                                "Interest":0.7,
+                                                "MaxMultiplier":10.0
+                                            }
+                                        ]
+                                    },
+                                    "Claims":[
+                                        "RHours License"
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "InvoiceHash":"",
+                "ContributorSignature":"",
+                "ContributorPublicKey":""
+            },
+            "ProposalHash":"",
+            "ApproverSignature":"",
+            "ApproverPublicKey":""
+        },
+        {
+            "Proposal":{
+                "Invoice":{
                     "InvoiceId":"pcgldcgb",
                     "Project":{
-                        "Id":"RclRhours",
+                        "Id":"RclRHours",
                         "Name":"RCL RHours Accounting"
                     },
                     "Contributor":{
@@ -72,7 +124,7 @@
                 "Invoice":{
                     "InvoiceId":"jmiblcdn",
                     "Project":{
-                        "Id":"RclRhours",
+                        "Id":"RclRHours",
                         "Name":"RCL RHours Accounting"
                     },
                     "Contributor":{
@@ -83,7 +135,7 @@
                     "ContributionSpans":[
                         {
                             "StartDate":"2018-05-01T00:00:00.0000000",
-                            "EndDate":"2018-08-20T00:00:00.0000000",
+                            "EndDate":"2018-08-21T00:00:00.0000000",
                             "UtcOffset":-7.0,
                             "Contributions":[
                                 {
@@ -101,6 +153,25 @@
                                     },
                                     "Claims":[
                                         "Set up RHours Accounting"
+                                    ]
+                                },
+                                {
+                                    "Terms":{
+                                        "Type":"HourlyWithCompoundedInterestAndMaxTerm",
+                                        "Items":[
+                                            {
+                                                "Hours":0.75,
+                                                "HourlyRate":50.0,
+                                                "Token":"USD",
+                                                "Interest":0.7,
+                                                "MaxMultiplier":10.0
+                                            }
+                                        ]
+                                    },
+                                    "Claims":[
+                                        "Updated README with policies",
+                                        "Created contributions report",
+                                        "Time split with RHours project"
                                     ]
                                 }
                             ]
